@@ -1,0 +1,81 @@
+html {
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #d5e3e1;
+}
+
+.icon-label {
+  text-align: center;
+  color: #85b0b4;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #85b0b4;
+}
+
+.btn {
+  background-color: #85b0b4;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #658f93;
+}
+
+a:focus {
+  color: #658f93;
+}
+
+
+li .current {
+  color: #658f93;
+}
+
+.btn .current{
+  color: #fff;
+}
+
+.btn a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+}
