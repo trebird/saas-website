@@ -17,12 +17,12 @@ body {
 
 header {
 
-  background-color: #d5e3e1;
+  background-color: #658f93;
 }
 
 .icon-label {
   text-align: center;
-  color: #85b0b4;
+  color: #d5e3e1;
   width: 100%;
   position: relative;
 }
@@ -42,35 +42,35 @@ li {
 
 a {
   text-decoration: none;
-  color: #85b0b4;
+  color: #d5e3e1;
 }
 
 .btn {
-  background-color: #85b0b4;
+  background-color: #d5e3e1;
   border: none;
   border-radius: 10px;
 }
 
 .btn:hover {
-  background-color: #658f93;
+  background-color: #85b0b4;
 }
 
 a:focus,
 a:hover {
-  color: #658f93;
+  color: #fff;
 }
 
 li .current {
-  color: #658f93;
+  color: #fff;
 }
 
 .btn .current,
-.btn:hover {
-  color: #fff;
+.btn a {
+  color: #658f93;
 }
 
-.btn a {
-  color: #fff;
+.btn:hover a{
+  color: #d5e3e1;
 }
 
 h1, h2 {
@@ -83,6 +83,18 @@ h1, h2 {
 
 .banner-message {
   width: 100%;
+}
+
+.about p, h2 {
+  color: #658f93;
+}
+
+footer {
+  background-color: #658f93;
+}
+
+footer p {
+  color: #d5e3e1;
 }
 
 @media only screen and (min-width: 38em) {

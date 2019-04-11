@@ -1034,7 +1034,7 @@ button,
   appearance: none;
   background-color: #333;
   border-radius: 4px;
-
+  border: 3px solid #333;
   color: #fff;
   font: inherit;
   text-decoration: none;
@@ -1052,8 +1052,10 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-
-
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
 
 button[disabled] {
   cursor: default;
