@@ -1,9 +1,13 @@
 html {
-  font-family: sans-serif;
+  font-family: Overpass, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.home {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
@@ -12,7 +16,7 @@ body {
 }
 
 header {
-  font-family: "Roboto Condensed", sans-serif;
+
   background-color: #d5e3e1;
 }
 
@@ -51,21 +55,34 @@ a {
   background-color: #658f93;
 }
 
-a:focus {
+a:focus,
+a:hover {
   color: #658f93;
 }
-
 
 li .current {
   color: #658f93;
 }
 
-.btn .current{
+.btn .current,
+.btn:hover {
   color: #fff;
 }
 
 .btn a {
   color: #fff;
+}
+
+h1, h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.banner {
+  color: #d5e3e1;
+}
+
+.banner-message {
+  width: 100%;
 }
 
 @media only screen and (min-width: 38em) {
