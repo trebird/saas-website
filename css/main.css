@@ -113,6 +113,11 @@ li .current {
 
 h1, h2 {
   font-family: "Roboto Condensed", sans-serif;
+  color: #d5e3e1;
+}
+
+.sign-up p {
+  color: #d5e3e1;
 }
 
 .banner {
@@ -125,6 +130,31 @@ h1, h2 {
 
 .about p, h2 {
   color: #658f93;
+}
+
+.sign-up {
+  background-color: #285155;
+  height: 1000px;
+}
+
+.sign-up-header {
+  background-color: #285155;
+}
+
+label {
+  color: #d5e3e1;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  background-color: #d5e3e1;
+  color: #658f93;
+}
+
+.form-btn {
+  background-color: #658f93;
 }
 
 footer {
@@ -169,8 +199,8 @@ footer img {
 @media only screen and (min-width: 60em) {
 
   h1 {
-    font-size: 2.0408rem;
-    line-height: 2.925rem;
+    font-size: 3.6532rem;
+    line-height: 4.9rem;
   }
 
 }
