@@ -28,12 +28,54 @@ nav {
   text-align: center;
 }
 
-ul {
+header ul {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -10em;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-check:checked ~ ul {
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  flex-direction: column;
   width: 100%;
 }
 
-li {
+.nav-label {
+  position: absolute;
+  top: 26px;
+  right: 13px;
+  cursor: pointer;
+  font-size: 1.25rem;
   display: inline-block;
+  width: 23px;
+}
+
+[type="checkbox"] + label::before {
+  position: absolute;
+  top: -10em;
+  right: 13px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 23px;
+}
+
+.nav-label img {
+  display: flex;
+  width: 100%;
+}
+
+
+ul {
+  width: 100%;
+  align-items: flex-end;
 }
 
 a {
@@ -86,11 +128,11 @@ h1, h2 {
 }
 
 footer {
-  background-color: #658f93;
+  background-color: #285155;
 }
 
 footer small {
-  color: #d5e3e1;
+  color: #85b0b4;
 }
 
 footer li {
@@ -98,18 +140,37 @@ footer li {
   line-height: 1;
 }
 
+footer a {
+  color: #85b0b4;
+}
+
+footer img {
+  width: 20px;
+}
+
 @media only screen and (min-width: 38em) {
 
-  h1 {
-    text-align: left;
+  .nav-check,
+  .nav-label {
+    display: none;
+    width: 0;
+  }
 
-      font-size: 2.0408rem;
-      line-height: 2.925rem;
+  nav ul {
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
   }
 
-  nav {
-    text-align: right;
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    font-size: 2.0408rem;
+    line-height: 2.925rem;
   }
 
 }
