@@ -2,17 +2,8 @@ html {
   font-family: Overpass, sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 .home {
   font-family: "Roboto Condensed", sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 .logo {
@@ -20,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #658f93;
+  background-color: #285155;
 }
 
 nav {
@@ -52,7 +43,6 @@ header ul {
   top: 26px;
   right: 13px;
   cursor: pointer;
-  font-size: 1.25rem;
   display: inline-block;
   width: 23px;
 }
@@ -62,7 +52,6 @@ header ul {
   top: -10em;
   right: 13px;
   cursor: pointer;
-  font-size: 1.25rem;
   display: inline-block;
   width: 23px;
 }
@@ -71,7 +60,6 @@ header ul {
   display: flex;
   width: 100%;
 }
-
 
 ul {
   width: 100%;
@@ -104,10 +92,10 @@ li .current {
 
 .btn .current,
 .btn a {
-  color: #658f93;
+  color: #285155;
 }
 
-.btn:hover a{
+.btn:hover a {
   color: #d5e3e1;
 }
 
@@ -129,11 +117,11 @@ h1, h2 {
 }
 
 .about p, h2 {
-  color: #658f93;
+  color: #285155;
 }
 
 .chart, .prods {
-  background-color: #658f93;
+  background-color: #285155;
   color: #d5e3e1;
 }
 
@@ -142,13 +130,13 @@ h1, h2 {
   color: #d5e3e1;
 }
 
-
 .goods {
   background-color: #d5e3e1;
 }
 
 table {
   color: #d5e3e1;
+  min-width: 50em;
 }
 
 th, td {
@@ -158,15 +146,6 @@ th, td {
 .compare {
   color: #d5e3e1;
 }
-
-table {
-  min-width: 50em;
-}
-
-.notes, .plans {
-  width: em;
-}
-
 
 .sign-up {
   background-color: #285155;
@@ -197,21 +176,21 @@ footer {
   background-color: #285155;
 }
 
-footer small {
-  color: #85b0b4;
-}
-
-footer li {
-  display: block;
-  line-height: 1;
-}
-
 footer a {
-  color: #85b0b4;
+  color: #d5e3e1;
 }
 
 footer img {
   width: 20px;
+}
+
+footer a:hover {
+  color: #85b0b4;
+}
+
+.socials a:hover img {
+  opacity: .6;
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 38em) {
@@ -228,15 +207,16 @@ footer img {
     flex-direction: row;
   }
 
+  footer img {
+    width: 30px;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  h1 {
-    font-size: 3.6532rem;
-    line-height: 4.9rem;
+  .table-wrapper {
+    overflow: visible;
   }
 
 }
