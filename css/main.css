@@ -132,6 +132,36 @@ h1, h2 {
   color: #658f93;
 }
 
+.chart, .prods {
+  background-color: #658f93;
+  color: #d5e3e1;
+}
+
+.goods {
+  background-color: #d5e3e1;
+}
+
+table {
+  color: #d5e3e1;
+}
+
+th, td {
+  border-bottom: solid 1px #d5e3e1;
+}
+
+.compare {
+  color: #d5e3e1;
+}
+
+table {
+  min-width: 50em;
+}
+
+.notes, .plans {
+  width: em;
+}
+
+
 .sign-up {
   background-color: #285155;
   height: 1000px;
