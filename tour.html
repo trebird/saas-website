@@ -12,13 +12,19 @@
 </head>
 
 <body>
-  <header class="grid grid-middle grid-stretch island-1-2">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="grid grid-middle grid-stretch island-1-2" role="banner">
     <div class="unit xs-1 s-1 m-1-3 l-1-3">
-      <a class="" href="index.html">
+      <a href="index.html">
         <img class="logo" src="images/logo-2.svg" alt="logo for yousuite">
       </a>
     </div>
-    <nav class="unit xs-1 s-1 m-2-3 l-2-3 gutter-1-2">
+    <nav class="unit xs-1 s-1 m-2-3 l-2-3 gutter-1-2" role="navigation" id="nav" tabindex="0">
       <input type="checkbox" class="nav-check" id="nav-check">
       <label class="nav-label " for="nav-check">
         <img src="images/icon-hamburger.png" alt="Open Navigation">
@@ -35,87 +41,102 @@
     </nav>
   </header>
 
-  <main class="chart">
-    <div class="price">
-      <p>under construction ;) :P</p>
-    </div>
-    <h1 class="gutter">THE GOODS</h1>
-    <div class="goods grid grid-middle">
-      <div class="unit xs-1 m-1-2 l-1-3 island-2">
-        <p class="prods island text-center mega">Finances</p>
-      </div>
-      <div class="unit xs-1 m-1-2 l-1-3 island-2">
-        <p class="prods island text-center mega">Planning</p>
-      </div>
-      <div class="unit xs-1 m-1-2 l-1-3 island-2">
-        <p class="prods island text-center mega">Human Resources</p>
-      </div>
-      <div class="unit xs-1 m-1-2 l-1-3 island-2">
-        <p class="prods island text-center mega">Analytics</p>
-      </div>
-      <div class="unit xs-1 m-1-2 l-1-3 island-2">
-        <p class="prods island text-center mega">Employees</p>
-      </div>
-      <div class="unit xs-1 m-1-2 l-1-3 island-2">
-        <p class="prods island text-center mega">Partnerships</p>
-      </div>
+  <main class="chart" id="main" role="main" tabindex="0">
 
-    </div>
-    <div class="wrapper">
-      <h2 class="compare push pad-t">COMPARE PLANS</h2>
+    <section tabindex="0">
+      <article>
 
-      <div class="table-wrapper scrollable">
-        <table class="push ">
-          <caption class="mega push-0"></caption>
-          <thead>
-            <tr>
-              <th class="plans" scope="col">YouSuite<br>Plans</th>
-              <th class="notes" scope="col">Registered Account</th>
-              <th class="notes" scope="col">Basic<br>Services</th>
-              <th class="notes" scope="col">All Pro Services</th>
-              <th class="notes" scope="col">Premium Services</th>
-              <th class="notes" scope="col">Employee Suite</th>
-              <th class="notes" scope="col">Cloud<br>Storage</th>
-            </tr>
-          </thead>
+        <h1 class="gutter">THE GOODS</h1>
 
-          <tbody>
-            <tr>
-              <th class="not-bold italic" scope="row">BASIC</th>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>No</td>
-              <td>No</td>
-              <td>No</td>
-              <td>5 GB</td>
-            </tr>
+        <div class="goods grid grid-middle">
+          <div class="unit xs-1 m-1-2 l-1-3 island-2">
+            <p class="prods island text-center mega">Finances</p>
+          </div>
 
-            <tr>
-              <th class="not-bold italic" scope="row">PRO</th>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>No</td>
-              <td>No</td>
-              <td>1 TB</td>
-            </tr>
+          <div class="unit xs-1 m-1-2 l-1-3 island-2">
+            <p class="prods island text-center mega">Planning</p>
+          </div>
 
-            <tr>
-              <th class="not-bold italic" scope="row">ULTIMATE</th>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td>2 TB</td>
-            </tr>
+          <div class="unit xs-1 m-1-2 l-1-3 island-2">
+            <p class="prods island text-center mega">Human Resources</p>
+          </div>
 
-          </tbody>
+          <div class="unit xs-1 m-1-2 l-1-3 island-2">
+            <p class="prods island text-center mega">Analytics</p>
+          </div>
 
-        </table>
-      </div>
-    </div>
+          <div class="unit xs-1 m-1-2 l-1-3 island-2">
+            <p class="prods island text-center mega">Employees</p>
+          </div>
 
+          <div class="unit xs-1 m-1-2 l-1-3 island-2">
+            <p class="prods island text-center mega">Partnerships</p>
+          </div>
+
+        </div>
+        <div class="wrapper">
+          <h2 class="compare push pad-t">COMPARE PLANS</h2>
+
+          <div class="table-wrapper scrollable">
+            <table class="push ">
+              <caption class="mega push-0"></caption>
+              <thead>
+                <tr>
+                  <th class="plans" scope="col">YouSuite<br>Plans</th>
+                  <th class="notes" scope="col">Registered Account</th>
+                  <th class="notes" scope="col">Basic<br>Services</th>
+                  <th class="notes" scope="col">All Pro Services</th>
+                  <th class="notes" scope="col">Premium Services</th>
+                  <th class="notes" scope="col">Employee Suite</th>
+                  <th class="notes" scope="col">Cloud<br>Storage</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th class="not-bold italic" scope="row">BASIC</th>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>5 GB</td>
+                </tr>
+
+                <tr>
+                  <th class="not-bold italic" scope="row">PRO</th>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>1 TB</td>
+                </tr>
+
+                <tr>
+                  <th class="not-bold italic" scope="row">ULTIMATE</th>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>2 TB</td>
+                </tr>
+
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+
+        <div class="embed embed-logo-icon embed-3by1">
+          <div class="embed-item text-center">
+            <img class="logo-icon" src="images/logo-icon.svg" alt="" aria-details="company-logo">
+          </div>
+        </div>
+
+      </article>
+    </section>
   </main>
   <footer role="contentinfo">
     <div class="grid pad-t gutter grid-middle">

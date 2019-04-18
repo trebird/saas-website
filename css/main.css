@@ -26,8 +26,6 @@ header ul {
 .nav-check {
   position: absolute;
   top: -10em;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-check:checked ~ ul {
@@ -164,11 +162,18 @@ input {
   border-radius: 10px;
   height: 50px;
   background-color: #d5e3e1;
-  color: #658f93;
+  color: #285155;
 }
 
 .form-btn {
-  background-color: #658f93;
+  background-color: #285155;
+  border: solid 2px #d5e3e1;
+}
+
+.form-btn:hover {
+  background-color: #d5e3e1;
+  color: #285155;
+  border: solid 2px #d5e3e1;
 }
 
 footer {

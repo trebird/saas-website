@@ -12,13 +12,19 @@
 </head>
 
 <body class="signup">
-  <header class="sign-up-header grid grid-middle grid-stretch island-1-2">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="sign-up-header grid grid-middle grid-stretch island-1-2" role="banner">
     <div class="unit xs-1 s-1 m-1-3 l-1-3">
-      <a class="" href="index.html">
+      <a href="index.html">
         <img class="logo" src="images/logo-2.svg" alt="logo for yousuite">
       </a>
     </div>
-    <nav class="unit xs-1 s-1 m-2-3 l-2-3 gutter-1-2">
+    <nav class="unit xs-1 s-1 m-2-3 l-2-3 gutter-1-2" role="navigation" id="nav" tabindex="0">
       <input type="checkbox" class="nav-check" id="nav-check">
       <label class="nav-label " for="nav-check">
         <img src="images/icon-hamburger.png" alt="Open Navigation">
@@ -35,39 +41,43 @@
     </nav>
   </header>
 
-  <main class="sign-up">
+  <main class="sign-up" id="main" role="main" tabindex="0">
+    <section>
+      <article>
+        <div class="pad-t-2 push-0">
+          <h1 class="italic text-center tenamega not-bold">CREATE AN<br> ACCOUNT</h1>
+        </div>
 
-    <div class="pad-t-2 push-0">
-      <h1 class="italic text-center tenamega not-bold">CREATE AN<br> ACCOUNT</h1>
-    </div>
+        <form class="pad-t push-1-2 gutter-1-2" method="POST" action="formspree.io/treawna@gmail.com">
 
-    <form class="pad-t push-1-2 gutter-1-2" method="POST" action="formspree.io/treawna@gmail.com">
+          <div class="gutter-2 push-1-2 max-length">
+            <label class="pad-b-1-8" for="name"></label>
+            <input id="name" value="Full name" name="name" required>
+          </div>
 
-      <div class="gutter-2 push-1-2 max-length">
-        <label class="pad-b-1-8" for="name"></label>
-        <input id="name" value="Full name" name="name" required>
-      </div>
+          <div class="gutter-2 push-1-2 max-length">
+            <label class="pad-b-1-8" for="name"></label>
+            <input id="company" value="Your Company" name="name" required>
+          </div>
 
-      <div class="gutter-2 push-1-2 max-length">
-        <label class="pad-b-1-8" for="name"></label>
-        <input id="company" value="Your Company" name="name" required>
-      </div>
+          <div class="gutter-2 push-1-2 max-length">
+            <label class="pad-b-1-8" for="email"></label>
+            <input id="email" value="Email Address" name="name" required>
+          </div>
 
-      <div class="gutter-2 push-1-2 max-length">
-        <label class="pad-b-1-8" for="email"></label>
-        <input id="email" value="Email Address" name="name" required>
-      </div>
+          <div class="text-center push-0 pad-t">
+            <button class="form-btn btn gutter mega push" type="submit">Check-in to your suite</button>
+          </div>
+        </form>
 
-      <div class="text-center push-0 pad-t">
-        <button class="form-btn btn gutter mega push" type="submit">Check-in to your suite</button>
-      </div>
-    </form>
+        <div class="embed embed-logo-icon embed-3by1">
+          <div class="embed-item text-center">
+            <img class="logo-icon" src="images/logo-icon.svg" alt="" aria-details="company-logo">
+          </div>
+        </div>
+      </article>
+    </section>
 
-    <div class="embed embed-logo-icon embed-3by1">
-      <div class="embed-item text-center">
-          <img class= "logo-icon" src="images/logo-icon.svg" alt="" aria-details="company-logo">
-      </div>
-    </div
   </main>
 
   <footer role="contentinfo">
