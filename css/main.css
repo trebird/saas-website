@@ -149,7 +149,6 @@ th, td {
 
 .sign-up {
   background-color: #285155;
-  height: 1000px;
 }
 
 .sign-up-header {
@@ -191,6 +190,18 @@ footer a:hover {
 .socials a:hover img {
   opacity: .6;
   transform: scale(1.05);
+}
+
+.embed-tree {
+  padding-top: 71.3333%;
+}
+
+.logo-icon {
+  width: 100px;
+}
+
+.embed-logo-icon {
+  padding-top: 40.3333%;
 }
 
 @media only screen and (min-width: 38em) {
