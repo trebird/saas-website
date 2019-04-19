@@ -44,7 +44,7 @@
   <main class="chart" id="main" role="main" tabindex="0">
 
     <section tabindex="0">
-      <article>
+      <article role="article" tabindex="0">
 
         <h1 class="gutter">THE GOODS</h1>
 
@@ -74,7 +74,7 @@
           </div>
 
         </div>
-        <div class="wrapper">
+        <div class="wrapper pad-b-2">
           <h2 class="compare push pad-t">COMPARE PLANS</h2>
 
           <div class="table-wrapper scrollable">
@@ -138,8 +138,22 @@
       </article>
     </section>
   </main>
+
   <footer role="contentinfo">
-    <div class="grid pad-t gutter grid-middle">
+    <section class="max-length pad-t pad-1-2 text-center">
+      <form method="POST" action="formspree.io/treawna@gmail.com">
+        <div class="grid grid-middle gutter-1-2">
+          <div class="unit xs-1 m-2-3 push">
+            <label class="text-left push-1-8" for="email"> Subscribe for email updates</label>
+            <input type="email" name="sign-up" id="email" value="" aria-label="sign-up-for-our-newsletter" required>
+          </div>
+          <div class="unit xs-1 m-1-3 gutter-1-2">
+            <button class="btn kilo bold" type="submit"> Submit</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <div class="grid pad-t-0 gutter grid-middle">
       <div class="unit xs-1-2">
         <ul class="list-group vertical-align push-0 text-left">
           <li><a class="pico" href="index.html">Home</a></li>

@@ -169,6 +169,7 @@ input {
 .form-btn {
   background-color: #285155;
   border: solid 2px #d5e3e1;
+  color: #d5e3e1;
 }
 
 .form-btn:hover {
