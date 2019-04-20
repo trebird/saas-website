@@ -159,6 +159,21 @@ th, td {
   color: #d5e3e1;
 }
 
+.basic,
+.pro,
+.ultimate {
+  margin: .5em;
+  border: solid 2px #d5e3e1;
+  width: 300px;
+}
+
+.basic .btn,
+.pro .btn,
+.ultimate .btn {
+  width: 250px;
+
+}
+
 .sign-up {
   background-color: #285155;
 }
