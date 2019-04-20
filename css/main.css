@@ -142,8 +142,13 @@ h1, h2 {
   color: #d5e3e1;
 }
 
+.goods-title {
+  background-color: #85b0b4;
+  color: #285155;
+}
+
 .goods {
-  background-color: #d5e3e1;
+  background-color: #85b0b4;
 }
 
 table {
@@ -171,7 +176,6 @@ th, td {
 .pro .btn,
 .ultimate .btn {
   width: 250px;
-
 }
 
 .sign-up {
